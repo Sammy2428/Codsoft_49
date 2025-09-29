@@ -1,0 +1,54 @@
+.App {
+  min-height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card {
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.15s ease-in-out;
+}
+
+.btn {
+  border-radius: 0.375rem;
+}
+
+.form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+/* Quiz taking styles */
+.quiz-option {
+  transition: all 0.2s ease-in-out;
+}
+
+.quiz-option:hover {
+  background-color: #f8f9fa;
+}
+
+/* Progress bar animation */
+.progress-bar {
+  transition: width 0.6s ease;
+}
+
+/* Responsive improvements */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .navbar-nav {
+    text-align: center;
+  }
+}

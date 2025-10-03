@@ -129,7 +129,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 👨‍💻 Author
 Sammy2428
 
-GitHub: @Sammy2428
+GitHub:https://github.com/Sammy2428/Codsoft_49
 
 🙏 Acknowledgments
 
